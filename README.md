@@ -2,4 +2,4 @@
 Semseter 3 individueel project A. van Heteren
 
 Main branch bevat alle projectbestanden en documentatie.
-Versies worden wekelijks geupdatet.
+Repository wordt wekelijks geupdatet.

@@ -4,7 +4,7 @@ import { container, inject, injectable } from "tsyringe";
 import { Golfer } from "../models/golfer.model";
 import GolferRepository from "../repositories/golfer.repository";
 
-container.register("IUserRepository", {
+container.register("IGolferRepository", {
   useClass: GolferRepository,
 });
 

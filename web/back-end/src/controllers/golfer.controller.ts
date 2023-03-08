@@ -1,7 +1,5 @@
 import express, { Request, Response } from "express";
-import { ParamsDictionary } from "express-serve-static-core";
-import { ParsedQs } from "qs";
-import { container, inject, injectable } from "tsyringe";
+  import { container, inject, injectable } from "tsyringe";
 import { IGolferController } from "../interfaces/golfer.interface";
 import { Golfer } from "../models/golfer.model";
 import { GolferService } from "../services/golfer.service";

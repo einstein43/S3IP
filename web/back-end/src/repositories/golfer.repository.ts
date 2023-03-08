@@ -7,4 +7,25 @@ export default class GolferRepository implements IGolferRepository {
   public async getAllGolfers(): Promise<void> {
     
   }
+
+  public async createGolfer(golfer: Golfer): Promise<void> {
+      
+  }
+
+  public async getGolferById(id: number): Promise<void> {
+       
+       
+  }
+
+  public async updateGolferById(id: number, golfer: Golfer): Promise<void> {
+      
+  }
+
+  public async deleteGolferById(id: number): Promise<void> {
+      
+  }
+
+  
+
+
 }

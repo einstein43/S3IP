@@ -20,15 +20,16 @@ export class GolferService implements IGolferService {
     this.updateGolferById = this.updateGolferById.bind(this);
   }
 
-    public async getAllGolfers(): Promise<void> {
+    public async getAllGolfers(): Promise<Golfer[]> {
         const golfers = this.golferRepository.getAllGolfers();
+        return golfers;
     }
 
     public async createGolfer(golfer: Golfer):Promise<void>{
         await this.golferRepository.createGolfer(golfer);
     }
     
-    public async getGolferById(id: number): Promise<void> {
+    public async getGolferById(id: number): Promise<Golfer> {
         const golfer = await this.golferRepository.getGolferById(id);
         return golfer;
     }

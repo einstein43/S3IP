@@ -4,25 +4,24 @@ import { container } from "tsyringe";
 import { GolferController } from "./controllers/golfer.controller";
 
 const app = express();
-
 const golferController = container.resolve(GolferController)
 
 
   
-app.get("/golfer/all", (req: Request, res: Response ) => {
-  golferController.getAllGolfers();
+app.get("/golfer/all", async (req: Request, res: Response ) =>  {
+  return await golferController.getAllGolfers(req, res);
 });
 
-app.get("/golfer/new", (req: Request, res: Response) => {
-  golferController.createGolfer(req, res);
+app.get("/golfer/new", async  (req: Request, res: Response) => {
+ return await golferController.createGolfer(req, res);
 });
 
-app.get("/golfer/one", (req: Request, res: Response) => {
-  golferController.getGolferById(req, res);
+app.get("/golfer/one", async (req: Request, res: Response) => {
+ return await golferController.getGolferById(req, res);
 });
 
-app.get("/golfer/update", (req: Request, res: Response) => {
-  golferController.updateGolferById(req, res);
+app.get("/golfer/update", async (req: Request, res: Response) => {
+ return await golferController.updateGolferById(req, res);
 });
 
 

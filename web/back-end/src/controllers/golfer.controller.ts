@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-  import { container, inject, injectable } from "tsyringe";
+import { container, inject, injectable } from "tsyringe";
 import { IGolferController } from "../interfaces/golfer.interface";
 import { Golfer } from "../models/golfer.model";
 import { GolferService } from "../services/golfer.service";
@@ -18,8 +18,12 @@ export class GolferController implements IGolferController {
     this.createGolfer = this.createGolfer.bind(this);
   }
 
-  public async getAllGolfers(): Promise<void> {
-    return await this.golferService.getAllGolfers();
+  public async getAllGolfers(req: Request, res: Response): Promise<Golfer[]> {
+    const golfers: Golfer[] = await this.golferService.getAllGolfers();
+
+    res.status(200).send(golfers);
+
+    return golfers;
   }
 
   public async createGolfer(req: Request, res: Response): Promise<void> {
@@ -28,7 +32,7 @@ export class GolferController implements IGolferController {
     await this.golferService.createGolfer(golfer);
   }
 
-  public async getGolferById(req: Request, res: Response): Promise<void> {
+  public async getGolferById(req: Request, res: Response): Promise<Golfer> {
     const id = req.body.id;
 
     return await this.golferService.getGolferById(id);

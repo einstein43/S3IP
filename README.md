@@ -12,3 +12,5 @@ Op de main branch in de web/frontend/golftrader folder staat de front end.
 Repository wordt wekelijks geupdatet.
 
 Trello board link: https://trello.com/b/wYC5AMMO/s3ip
+
+<title>yo</title>

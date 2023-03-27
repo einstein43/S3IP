@@ -15,7 +15,7 @@ Trello board link: https://trello.com/b/wYC5AMMO/s3ip
 
 
 <h1>Onderzoeksverslag MySQL vs NoSQL</h1>
-<li>1. Onderzoeksvraag</li>
-<li>MySQL</li>
-<li>NoSQL</li>
-<li>Conclusie</li>
+<li>1.0 Onderzoeksvraag</li>
+<li>2.1 MySQL</li>
+<li>2.2 NoSQL</li>
+<li>3.0Conclusie</li>

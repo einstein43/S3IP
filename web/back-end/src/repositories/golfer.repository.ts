@@ -7,8 +7,8 @@ export default class GolferRepository implements IGolferRepository {
   public async getAllGolfers(): Promise<Golfer[]> {
     const golfer1: Golfer = {
         id: 1,
-        fName: "Alexander",
-        lName: "van Heteren",
+        fName: "Loes",
+        lName: "Smeets",
         handicap: 15
        }
     const golfer2: Golfer = {

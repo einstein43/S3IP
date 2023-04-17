@@ -2,9 +2,12 @@ import "reflect-metadata"
 import express, { Request, Response } from "express";
 import { container } from "tsyringe";
 import { GolferController } from "./controllers/golfer.controller";
+import { RoundController } from "./controllers/round.controller";
+import { REPLCommand } from "repl";
 
 const app = express();
 const golferController = container.resolve(GolferController)
+const roundController = container.resolve(RoundController)
 
 
   
@@ -23,6 +26,21 @@ app.get("/golfer/one", async (req: Request, res: Response) => {
 app.get("/golfer/update", async (req: Request, res: Response) => {
  return await golferController.updateGolferById(req, res);
 });
+
+app.get("/round/id", async (req: Request, res: Response) => {
+  return await roundController.getRoundById(req,res);
+});
+
+app.get("/round/post", async (req: Request, res: Response) => {
+  return await roundController.postRound(req, res);
+})
+
+app.get("/round/update", async (req: Request, res: Response) => {
+  return await roundController.updateRound(req, res);
+})
+app.get("/round/delete", async (req: Request, res: Response) => {
+  return await roundController.deleteRound(req, res);
+})
 
 
 

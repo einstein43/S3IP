@@ -7,7 +7,7 @@ import { IRoundRepository, IRoundService } from "../interfaces/round.interface";
 import { Round } from "../models/round.model";
 import RoundRepository from "../repositories/round.repository";
 
-container.register("IRoundService", {
+container.register("IRoundRepository", {
   useClass: RoundRepository,
 });
 

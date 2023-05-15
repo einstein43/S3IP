@@ -1,6 +1,10 @@
 import { IGolferRepository } from "../interfaces/golfer.interface";
 import { Golfer } from "../models/golfer.model";
 
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
+
+
 export default class GolferRepository implements IGolferRepository {
   constructor() {}
 
@@ -35,15 +39,14 @@ export default class GolferRepository implements IGolferRepository {
       
   }
 
-  public async getGolferById(id: number): Promise<Golfer> {
-       const golfer: Golfer = {
-        id: 1,
-        fName: "Alexander",
-        lName: "van Heteren",
-        handicap: 15
-       }
-
-       return golfer;
+  public async getGolferById(id: number):   {
+     try {
+      const golfer: Golfer = await prisma.golfer.findUnique({
+        where: {
+          id: id,
+        },
+      })
+      return golfer
        
   }
 

@@ -1,11 +1,39 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
+ 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "sqlserver"
   url      = env("DATABASE_URL")
 }
+
+ 
+
+model Golfer {
+  id        Int    @id @default(autoincrement())
+  fName     String
+  lName     String
+  email     String
+  password  String
+  handicap  Int
+  rounds    Round[]
+}
+
+model Course {
+  id       Int    @id @default(autoincrement())
+  name     String
+  length   Int
+  par      Int
+  rounds   Round[]
+}
+
+model Round {
+  id        Int     @id @default(autoincrement())
+  course_id Int
+  golfer_id Int
+  score     Int
+  course    Course  @relation(fields: [course_id], references: [id])
+  golfer    Golfer  @relation(fields: [golfer_id], references: [id])
+}
+

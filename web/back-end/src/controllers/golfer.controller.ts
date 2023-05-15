@@ -9,7 +9,7 @@ container.register("IGolferService", {
 });
 
 @injectable()
-export class GolferController implements IGolferController {
+export class GolferController {
   constructor(@inject("IGolferService") private golferService: GolferService) {
     this.getAllGolfers = this.getAllGolfers.bind(this);
     this.getGolferById = this.getGolferById.bind(this);
@@ -18,13 +18,12 @@ export class GolferController implements IGolferController {
     this.createGolfer = this.createGolfer.bind(this);
   }
 
-  public async getAllGolfers(req: Request, res: Response): Promise<Golfer[]> {
-    const golfers: Golfer[] = await this.golferService.getAllGolfers();
+  public async getAllGolfers(req: Request, res: Response): Promise<void> {
+    const golfers = await this.golferService.getAllGolfers();
 
     res.status(200).send(golfers);
 
-    return golfers;
-  }
+   }
 
   public async createGolfer(req: Request, res: Response): Promise<void> {
     const golfer = req.body.golfer;
@@ -32,7 +31,7 @@ export class GolferController implements IGolferController {
     await this.golferService.createGolfer(golfer);
   }
 
-  public async getGolferById(req: Request, res: Response): Promise<Golfer> {
+  public async getGolferById(req: Request, res: Response): Promise<void> {
     const id = req.body.id;
 
     return await this.golferService.getGolferById(id);

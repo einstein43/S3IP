@@ -9,7 +9,7 @@ container.register("IGolferRepository", {
 });
 
 @injectable()
-export class GolferService implements IGolferService {
+export class GolferService  {
   constructor(
     @inject("IGolferRepository") private golferRepository: IGolferRepository
   ) {
@@ -20,7 +20,7 @@ export class GolferService implements IGolferService {
     this.updateGolferById = this.updateGolferById.bind(this);
   }
 
-    public async getAllGolfers(): Promise<Golfer[]> {
+    public async getAllGolfers(): Promise<void> {
         const golfers = this.golferRepository.getAllGolfers();
         return golfers;
     }
@@ -29,7 +29,7 @@ export class GolferService implements IGolferService {
         await this.golferRepository.createGolfer(golfer);
     }
     
-    public async getGolferById(id: number): Promise<Golfer> {
+    public async getGolferById(id: number): Promise<void> {
         const golfer = await this.golferRepository.getGolferById(id);
         return golfer;
     }

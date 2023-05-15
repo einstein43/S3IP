@@ -1,64 +1,68 @@
 import { IGolferRepository } from "../interfaces/golfer.interface";
 import { Golfer } from "../models/golfer.model";
 
-import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
+import { PrismaClient } from "@prisma/client";
+const prisma = new PrismaClient();
 
-
-export default class GolferRepository implements IGolferRepository {
+export default class GolferRepository{
   constructor() {}
 
-  public async getAllGolfers(): Promise<Golfer[]> {
-    const golfer1: Golfer = {
-        id: 1,
-        fName: "Loes",
-        lName: "Smeets",
-        handicap: 15
-       }
-    const golfer2: Golfer = {
-        id: 2,
-        fName: "Zino",
-        lName: "van Heteren",
-        handicap: 1
-       }
-
-    const golfer3: Golfer = {
-      id: 3,
-      fName: "Zino2",
-      lName: "van Heteren",
-      handicap: 4
+  public async getAllGolfers(): Promise<void> {
+    try {
+      await prisma.golfer.findMany();
+    } catch (error) {
+      console.error("could not find golfers in repository");
+      throw new Error("Failed to retrieve golfers");
     }
-
-
-    
-       const golfers: Golfer[] = [golfer1, golfer2, golfer3]
-       return golfers;
   }
 
-  public async createGolfer(golfer: Golfer): Promise<void> {
-      
-  }
+  public async createGolfer(golfer: Golfer): Promise<void> {}
 
-  public async getGolferById(id: number):   {
-     try {
-      const golfer: Golfer = await prisma.golfer.findUnique({
+  public async getGolferById(id: number): Promise<void> {
+    try {
+      const golfer = await prisma.golfer.findUnique({
         where: {
           id: id,
         },
-      })
-      return golfer
-       
+      });
+      console.log(golfer);
+    } catch (error) {
+      console.error("could not find golfer in repository");
+      throw new Error("Failed to retrieve golfer");
+    }
   }
 
   public async updateGolferById(id: number, golfer: Golfer): Promise<void> {
-      
+    try {
+      const updatedGolfer = await prisma.golfer.update({
+        where: {
+          id: id,
+        },
+        data: {
+          fName: golfer.fName,
+          lName: golfer.lName,
+          email: golfer.email,
+          handicap: golfer.handicap,
+        },
+      });
+      console.log(updatedGolfer);
+    } catch (error) {
+      console.error("could not update golfer in repository");
+      throw new Error("Failed to update golfer");
+    }
   }
 
   public async deleteGolferById(id: number): Promise<void> {
-      
+    try {
+      const deletedGolfer = await prisma.golfer.delete({
+        where: {
+          id: id,
+        },
+      });
+      console.log(deletedGolfer);
+    } catch (error) {
+      console.error("could not delete golfer in repository");
+      throw new Error("Failed to delete golfer");
+    }
   }
-
-  
-
-
 }

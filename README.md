@@ -9,14 +9,14 @@
 [link naar de backend repository](https://github.com/einstein43/s3backendcicd)
 
 
-Op de main branch in de web/backend folder staat de API.
+ 
 Op de main branch in de web/frontend/golftrader folder staat de front end.
 
 Repository wordt wekelijks geupdatet.
 
 Trello board link: https://trello.com/b/wYC5AMMO/s3ip
 
-Architectuur API:
+<h2>Architectuur API:</h2>
 ![image](https://github.com/einstein43/S3IP/assets/104003514/fa344d1f-b427-4c01-91b2-e632890e9770)
 ![image](https://github.com/einstein43/S3IP/assets/104003514/396a9d3f-3979-497d-8e05-5dfb23803cda)
 ![image](https://github.com/einstein43/S3IP/assets/104003514/0f8c93ec-d905-492f-8355-28c76270a601)

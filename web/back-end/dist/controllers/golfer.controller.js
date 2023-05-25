@@ -72,7 +72,7 @@ var GolferController = /** @class */ (function () {
                     case 1:
                         golfers = _a.sent();
                         res.status(200).send(golfers);
-                        return [2 /*return*/, golfers];
+                        return [2 /*return*/];
                 }
             });
         });

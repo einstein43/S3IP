@@ -36,68 +36,122 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var client_1 = require("@prisma/client");
+var prisma = new client_1.PrismaClient();
 var GolferRepository = /** @class */ (function () {
     function GolferRepository() {
     }
     GolferRepository.prototype.getAllGolfers = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var golfer1, golfer2, golfer3, golfers;
+            var error_1;
             return __generator(this, function (_a) {
-                golfer1 = {
-                    id: 1,
-                    fName: "Loes",
-                    lName: "Smeets",
-                    handicap: 15
-                };
-                golfer2 = {
-                    id: 2,
-                    fName: "Zino",
-                    lName: "van Heteren",
-                    handicap: 1
-                };
-                golfer3 = {
-                    id: 3,
-                    fName: "Zino2",
-                    lName: "van Heteren",
-                    handicap: 4
-                };
-                golfers = [golfer1, golfer2, golfer3];
-                return [2 /*return*/, golfers];
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, prisma.golfers.findMany()];
+                    case 1:
+                        _a.sent();
+                        return [3 /*break*/, 3];
+                    case 2:
+                        error_1 = _a.sent();
+                        console.error("could not find golfers in repository");
+                        throw new Error("Failed to retrieve golfers");
+                    case 3:
+                        console.log("golfers retrieved");
+                        return [2 /*return*/];
+                }
             });
         });
     };
     GolferRepository.prototype.createGolfer = function (golfer) {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                return [2 /*return*/];
-            });
-        });
+        return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
+            return [2 /*return*/];
+        }); });
     };
     GolferRepository.prototype.getGolferById = function (id) {
         return __awaiter(this, void 0, void 0, function () {
-            var golfer;
+            var golfer, error_2;
             return __generator(this, function (_a) {
-                golfer = {
-                    id: 1,
-                    fName: "Alexander",
-                    lName: "van Heteren",
-                    handicap: 15
-                };
-                return [2 /*return*/, golfer];
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, prisma.golfers.findUnique({
+                                where: {
+                                    id: id,
+                                },
+                            })];
+                    case 1:
+                        golfer = _a.sent();
+                        console.log(golfer);
+                        return [3 /*break*/, 3];
+                    case 2:
+                        error_2 = _a.sent();
+                        console.error("could not find golfer in repository");
+                        throw new Error("Failed to retrieve golfer");
+                    case 3:
+                        console.log("golfer retrieved");
+                        return [2 /*return*/];
+                }
             });
         });
     };
     GolferRepository.prototype.updateGolferById = function (id, golfer) {
         return __awaiter(this, void 0, void 0, function () {
+            var updatedGolfer, error_3;
             return __generator(this, function (_a) {
-                return [2 /*return*/];
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, prisma.golfers.update({
+                                where: {
+                                    id: id,
+                                },
+                                data: {
+                                    fName: golfer.fName,
+                                    lName: golfer.lName,
+                                    email: golfer.email,
+                                    handicap: golfer.handicap,
+                                },
+                            })];
+                    case 1:
+                        updatedGolfer = _a.sent();
+                        console.log(updatedGolfer);
+                        return [3 /*break*/, 3];
+                    case 2:
+                        error_3 = _a.sent();
+                        console.error("could not update golfer in repository");
+                        throw new Error("Failed to update golfer");
+                    case 3:
+                        console.log("golfer updated");
+                        return [2 /*return*/];
+                }
             });
         });
     };
     GolferRepository.prototype.deleteGolferById = function (id) {
         return __awaiter(this, void 0, void 0, function () {
+            var deletedGolfer, error_4;
             return __generator(this, function (_a) {
-                return [2 /*return*/];
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, prisma.golfers.delete({
+                                where: {
+                                    id: id,
+                                },
+                            })];
+                    case 1:
+                        deletedGolfer = _a.sent();
+                        console.log(deletedGolfer);
+                        return [3 /*break*/, 3];
+                    case 2:
+                        error_4 = _a.sent();
+                        console.error("could not delete golfer in repository");
+                        throw new Error("Failed to delete golfer");
+                    case 3:
+                        console.log("golfer deleted");
+                        return [2 /*return*/];
+                }
             });
         });
     };

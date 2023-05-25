@@ -5,6 +5,7 @@
  
  <h6>De front-end bestaat uit React, Next.js 13 en Typescript.</h6>
  <h6>De Back-end bestaat uit Node.js, Express & typescript.</h6>
+ <a href:"https://github.com/einstein43/s3backendcicd">link naar de backend</a>
 
 Op de main branch in de web/backend folder staat de API.
 Op de main branch in de web/frontend/golftrader folder staat de front end.

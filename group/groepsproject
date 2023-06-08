@@ -7,10 +7,10 @@ Toen we hoorden dat we zelf nog een front-end moesten maken ben ik direct begonn
 Ik heb de layout gemaakt (navbar footer en alles responsive), het listing card component gemaakt, CSS variabelen gemaakt om makkelijk globaal styling te veranderen en een efficiente componenten folderstructuur opgezet. Zie afbeeldingen:
 
 Folderstructuur componenten:
-![image](https://github.com/einstein43/S3IP/assets/104003514/d983c104-1d36-4612-8700-81c84408c997)
+[image](https://github.com/einstein43/S3IP/assets/104003514/d983c104-1d36-4612-8700-81c84408c997)
 <br/>
 Folderstructuur styling:
-![image](https://github.com/einstein43/S3IP/assets/104003514/a90473c1-daf4-4ff0-b6f5-26f09f59da19)
+[image](https://github.com/einstein43/S3IP/assets/104003514/a90473c1-daf4-4ff0-b6f5-26f09f59da19)
 <br/>
 Listing card component:
 ![image](https://github.com/einstein43/S3IP/assets/104003514/79fa416a-60dd-40a0-941c-5114ee5ffe65)

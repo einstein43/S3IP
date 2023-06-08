@@ -5,6 +5,7 @@
  
  <h6>De front-end bestaat uit React, Next.js 13 en Typescript.</h6>
  <h6>De Back-end bestaat uit Node.js, Express & typescript.</h6>
+ <h6> Databse staat online op azure </h6>
   
 [link naar de backend repository](https://github.com/einstein43/s3backendcicd)
 

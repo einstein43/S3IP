@@ -95,4 +95,3 @@ Implementing these strategies helps mitigate SQL injection risks. Regular update
 - [PortSwigger - SQL Injection](https://portswigger.net/web-security/sql-injection)
 - [Imperva - SQL Injection](https://www.imperva.com/learn/application-security/sql-injection-sqli/)
 - [W3schools - SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
-![image](https://github.com/einstein43/S3IP/assets/104003514/d16b0beb-e857-4bc5-a360-da59fb09b1c2)

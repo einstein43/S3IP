@@ -152,7 +152,7 @@ Agile project management offers several benefits and follows key principles that
 2. Customer Collaboration: Agile actively involves customers throughout the project. Open communication ensures their needs are understood and met, maximizing satisfaction.
 
 
-## Sources
+## Bronnen
 
 - [Agile Alliance](https://www.agilealliance.org/)
 - [Project Management Institute (PMI) - Agile Practice Guide](https://www.pmi.org/pmbok-guide-standards/practice-guides/agile)

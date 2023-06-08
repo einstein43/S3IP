@@ -160,6 +160,6 @@ Agile project management offers several benefits and follows key principles that
 - [Scaled Agile](https://www.scaledagile.com/)
 - [Atlassian - Agile Project Management](https://www.atlassian.com/agile/project-management)
 - [Manifesto for Agile Software Development](https://agilemanifesto.org/)
-![image](https://github.com/einstein43/S3IP/assets/104003514/40423b27-3b70-4a57-8fcb-3beddf6e2df0)
+
 
 

@@ -190,6 +190,10 @@ Navbar mobile:
 ![image](https://github.com/einstein43/S3IP/assets/104003514/5f0f9cd9-9925-4edc-9c83-af8ab5f3074e)
 
 
+<h1> API </h1>
+
+Hier volgt een afbeelding van alle endpoints van mijn Express API, zie bovenaan portfolio voor gedetailleerde inzicht in de endpoints en data flow. </br>
+![image](https://github.com/einstein43/S3IP/assets/104003514/35db79ba-69e0-48cc-93a9-ef6d260b5223) </br>
 
 
 

@@ -1,6 +1,6 @@
 <h1> Research reports: </h1>
 
- # SQL Injection Prevention
+ # SQL Injection Prevention in the Golfcaddy web application
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,7 +12,7 @@
   - [Sources](#sources)
 
 ## Introduction
-SQL injection is a common web application vulnerability that occurs when malicious SQL statements are inserted into user-supplied data, allowing attackers to manipulate the application's database. This report aims to explore SQL injection prevention technique.
+SQL injection is a common web application vulnerability that occurs when malicious SQL statements are inserted into user-supplied data, allowing attackers to manipulate the application's database. This report aims to explore SQL injection prevention techniques in an application for keeping track of your golf scores.
 
 ## Methodology
 To investigate SQL injection prevention, the following research strategies will be employed:

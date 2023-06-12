@@ -39,7 +39,7 @@ export default class RoundRepository {
       console.error("could not create round in repository");
       throw new Error("Failed to create round");
     }
-    console.log("golfer created");
+    console.log("round created");
   }
 
   public async updateRound(round: Round): Promise<void> {

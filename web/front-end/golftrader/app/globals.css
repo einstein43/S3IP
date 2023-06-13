@@ -77,12 +77,13 @@ a {
 
 /* Variables */
 :root {
-  --color-primary: #8A90C2;
-  --color-grey-primary: #F5F5F5;
-  --color-grey-secondary: #E9E9E9;
+  --color-primary: #EFFFE0;
+  --color-blue-primary: #909CC2;
+  --color-blue-secondary: #101935;
   --color-grey-tertiery: #9B9B9B;
   --section-padding-top: clamp(25px, 5vw, 75px);
   --section-padding-sides: clamp(15px, 6vw, 300px);
   --page-padding-sides: clamp(20px, 4vw, 40px);
   --border-radius: 5px;
+  font-family: 'Inter', sans-serif;
 }

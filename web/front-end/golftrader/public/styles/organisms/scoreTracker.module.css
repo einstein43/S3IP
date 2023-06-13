@@ -1,0 +1,64 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .scoreTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+  }
+  
+  .scoreTable th,
+  .scoreTable td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .scoreTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .scoreInput {
+    width: 60px;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+
+  
+  
+  .inputWrapper {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .inputField {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Add any additional styling you desire */
+  
+  

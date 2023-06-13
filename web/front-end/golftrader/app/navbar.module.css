@@ -1,0 +1,47 @@
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  align-items: center;
+  background-color: #42a5ff;
+  color: #fff;
+  padding: 15px;
+}
+
+#img {
+  height: 30px;
+}
+
+.logo {
+  justify-self: start;
+  height: 25;
+}
+
+.social_links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  justify-self: center;
+}
+
+.profile_links {
+  justify-self: end;
+}
+
+.rightside_link ~ .rightside_link {
+  margin-left: 25px;
+}
+
+#telegram {
+  height: 25px;
+}
+#twitter {
+  height: 25px;
+}
+#instagram {
+  height: 25px;
+}
+
+.socials ~ .socials {
+  margin-left: 10px;
+}

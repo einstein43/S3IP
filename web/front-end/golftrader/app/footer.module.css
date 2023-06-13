@@ -1,0 +1,43 @@
+.footer {
+    background-color: #42A5FF;
+    color: #333;
+    padding: 40px;
+  }
+  
+  .footer_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .footer_col {
+    margin-bottom: 20px;
+  }
+  
+  .footer_col h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer_col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer_col ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer_col ul li a {
+    color: #333;
+  }
+  
+  .footer_bottom {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+
+  

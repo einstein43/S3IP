@@ -1,0 +1,14 @@
+.scorecard_wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+#form {
+    display: grid;
+}
+.label {
+    color: var(--color-grey-tertiery);
+}
+
+.label ~ .label {
+    margin-top: 10px;
+}

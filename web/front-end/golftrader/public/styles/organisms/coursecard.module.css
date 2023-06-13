@@ -1,0 +1,20 @@
+.card_wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    background-color: var(--color-primary);
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+#image {
+    border-radius: 5px;
+}
+.image_div {
+    margin-top: 10px;
+    grid-area: 1/2;
+    align-items: center;
+}
+.card_description {
+    color: var(--color-grey-tertiery);
+    grid-area: 2/2;
+}

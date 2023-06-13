@@ -1,12 +1,56 @@
 .main {
-   
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 60vh;
+  background-color: #ffffff70;
 }
 
+#welcome_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+
+#welcome_text {
+  grid-area: 1/2;
+  font-size: 30px;
+  color: var(--color-blue-primary);
+
+}
+#welcome_desc {
+  grid-area: 2/2;
+}
+#button {
+  grid-area: 3/2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#card_collection {
+  display: flex;
+}
 
 #golfball_1 {
   height: 100px;
@@ -18,8 +62,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr auto 1fr auto;
   grid-template-rows: 1fr auto auto 1fr;
-   
- }
+}
 
 .socials {
   height: 30px;
@@ -35,30 +78,26 @@
   grid-area: 1/6;
 }
 
-
 #ul_2 {
   padding-top: 20px;
   padding-left: 10px;
   grid-area: 1/4;
   font-size: small;
   word-spacing: 15px;
- 
+
   display: flex;
   list-style: none;
 }
 
 .li_p {
   display: inline;
-
 }
 
 .body_grid {
   background-color: black;
   grid-row-start: 2;
-  grid-column-start:2 ;
+  grid-column-start: 2;
 }
-
- 
 
 .description {
   display: inherit;
@@ -150,7 +189,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -178,7 +217,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }

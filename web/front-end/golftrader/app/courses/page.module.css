@@ -1,0 +1,12 @@
+.main {
+   
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+  }
+  #cards_div {
+    display: flex;
+    column-gap: 20px;
+  }

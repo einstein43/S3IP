@@ -10,7 +10,7 @@ export default function Dashboard() {
   interface Round {
     id: number;
     course_id: number;
-    golfer_id: number;
+    golfer_id?: number;
     score: number;
   }
   const [rounds, setRounds] = useState<Round[]>([]);
@@ -71,7 +71,7 @@ export default function Dashboard() {
     const requestBody = {
       id: id,
       course_id: newCourseId,
-      golfer_id: 1,
+       
       score: newScore,
     };
   
@@ -82,7 +82,7 @@ export default function Dashboard() {
           'Content-Type': 'application/json',
           "Access-Control-Allow-Origin": "*",
         },
-        body: JSON.stringify(requestBody),
+        body: JSON.stringify({ requestBody }),
       });
   
       if (response.ok) {
@@ -113,6 +113,7 @@ export default function Dashboard() {
       if (response.ok) {
         console.log('Round deleted successfully');
         setSuccessMessage('Round deleted successfully');
+        window.alert('Round deleted successfully');
       } else {
         throw new Error('Failed to delete round');
       }

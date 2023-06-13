@@ -3,18 +3,34 @@ import express, { Request, Response } from "express";
 import { container } from "tsyringe";
 import { GolferController } from "./controllers/golfer.controller";
 import { RoundController } from "./controllers/round.controller";
- import cors from "cors";
+import cors from "cors";
+import bodyParser from "body-parser";
 const app = express();
- app.use(cors());
- 
+app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.options("*", cors());
+app.use(
+  cors({
+    origin: "http://localhost:3000", // Replace with your frontend domain
+    methods: ["GET", "POST", "PUT", "DELETE"], // Specify the allowed HTTP methods
+    allowedHeaders: ["Content-Type", "Authorization"], // Specify the allowed request headers
+  })
+);
+express.json();
+app.use(cors());
+
 app.options("*", cors());
 const golferController = container.resolve(GolferController);
 const roundController = container.resolve(RoundController);
 
-{/* golfer endpoints */}
+{
+  /* golfer endpoints */
+}
 
 app.get("/golfer/all", async (req: Request, res: Response) => {
-  console.log(await golferController.getAllGolfers(req, res))
+  console.log(await golferController.getAllGolfers(req, res));
   return await golferController.getAllGolfers(req, res);
 });
 
@@ -34,7 +50,9 @@ app.get("/golfer/one", async (req: Request, res: Response) => {
   return await golferController.getGolferById(req, res);
 });
 
-{/* round endpoints */}
+{
+  /* round endpoints */
+}
 
 app.get("/round/all", async (req: Request, res: Response) => {
   return await roundController.getRoundById(req, res);
@@ -48,11 +66,7 @@ app.put("/round/update", async (req: Request, res: Response) => {
   return await roundController.updateRound(req, res);
 });
 
-
- 
-
 app.delete("/round/delete/:id", async (req: Request, res: Response) => {
-
   return await roundController.deleteRound(req, res);
 });
 

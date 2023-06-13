@@ -41,6 +41,7 @@ export default class RoundRepository {
   }
 
   public async updateRound(round: Round): Promise<void> {
+    console.log(round);
     try {
       const updatedRound = await prisma.rounds.update({
         where: {
@@ -49,7 +50,6 @@ export default class RoundRepository {
         data: {
           id: round.id,
           course_id: round.course_id,
-          golfer_id: round.golfer_id,
           score: round.score,
         },
       });
@@ -58,7 +58,7 @@ export default class RoundRepository {
       console.error("could not update round in repository");
       throw new Error("Failed to update round");
     }
-    console.log("golfer updated");
+    console.log("round updated");
   }
   public async deleteRound(id: number): Promise<void> {
     try {

@@ -8,12 +8,10 @@ const prisma = new PrismaClient();
 export default class RoundRepository {
   constructor() {}
 
-  public async getRoundById(id: number): Promise<any> {
+  public async getRoundById(): Promise<any> {
     try {
-      const round = await prisma.rounds.findUnique({
-        where: {
-          id: id,
-        },
+      const round = await prisma.rounds.findMany({
+        
       });
       console.log("round retrieved");
 
@@ -31,12 +29,12 @@ export default class RoundRepository {
           id: round.id,
           course_id: round.course_id,
           golfer_id: round.golfer_id,
-          score: round.score,
+          score: round.score
         },
       });
       console.log(newRound);
     } catch (error) {
-      console.error("could not create round in repository");
+      console.error("could not create round in database");
       throw new Error("Failed to create round");
     }
     console.log("round created");

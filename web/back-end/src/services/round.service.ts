@@ -21,8 +21,8 @@ export class RoundService implements RoundService {
     this.updateRound = this.updateRound.bind(this);
     this.deleteRoundById = this.deleteRoundById.bind(this);
   }
-  public async getRoundById(id: number): Promise<Round> {
-    const round = await this.roundRepository.getRoundById(id);
+  public async getRoundById(): Promise<Round> {
+    const round = await this.roundRepository.getRoundById();
     return round;
   }
   public async postRound(round: Round): Promise<void> {
@@ -32,6 +32,7 @@ export class RoundService implements RoundService {
     await this.roundRepository.updateRound(round);
   }
   public async deleteRoundById(id: number): Promise<void> {
+    console.log("deleteRoundById service");
     await this.roundRepository.deleteRound(id);
   }
 }

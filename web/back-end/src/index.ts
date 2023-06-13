@@ -3,9 +3,11 @@ import express, { Request, Response } from "express";
 import { container } from "tsyringe";
 import { GolferController } from "./controllers/golfer.controller";
 import { RoundController } from "./controllers/round.controller";
-import { REPLCommand } from "repl";
-
+ import cors from "cors";
 const app = express();
+ app.use(cors());
+ 
+app.options("*", cors());
 const golferController = container.resolve(GolferController);
 const roundController = container.resolve(RoundController);
 
@@ -46,7 +48,11 @@ app.put("/round/update", async (req: Request, res: Response) => {
   return await roundController.updateRound(req, res);
 });
 
-app.delete("/round/delete", async (req: Request, res: Response) => {
+
+ 
+
+app.delete("/round/delete/:id", async (req: Request, res: Response) => {
+
   return await roundController.deleteRound(req, res);
 });
 

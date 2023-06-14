@@ -11,6 +11,7 @@ export default function Courses() {
         <Card></Card>
         <Card></Card>
         <Card></Card>
+        <Card></Card>
       </div>
     </main>
   );

@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import styles from '../../public/styles/organisms/scoreTracker.module.css';
+import React, { useState } from "react";
+import styles from "../../public/styles/organisms/scoreTracker.module.css";
+import classNames from "classnames";
 
 interface Score {
   hole: number;
@@ -8,9 +9,9 @@ interface Score {
 
 const GolfScoreTracker: React.FC = () => {
   const [formData, setFormData] = useState({
-    id: '',
-    course_id: '',
-    golfer_id: '',
+    id: "",
+    course_id: "",
+    golfer_id: "",
     scores: Array.from({ length: 18 }, () => 0),
   });
 
@@ -22,7 +23,10 @@ const GolfScoreTracker: React.FC = () => {
     }));
   };
 
-  const handleScoreChange = (index: number, event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleScoreChange = (
+    index: number,
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
     const { value } = event.target;
     setFormData((prevFormData) => {
       const newScores = [...prevFormData.scores];
@@ -36,7 +40,7 @@ const GolfScoreTracker: React.FC = () => {
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    
+
     const totalScore = formData.scores.reduce((sum, score) => sum + score, 0);
     const dataToSend = {
       id: formData.id,
@@ -44,64 +48,78 @@ const GolfScoreTracker: React.FC = () => {
       golfer_id: formData.golfer_id,
       totalScore: totalScore,
     };
-  
+
     try {
-      const response = await fetch('http://localhost:3001/round/post', {
-        method: 'POST',
+      const response = await fetch("http://localhost:3001/round/post", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(dataToSend),
       });
       if (response.ok) {
-        console.log('Form data sent successfully.');
+        console.log("Form data sent successfully.");
       } else {
-        console.error('Failed to send form data.');
+        console.error("Failed to send form data.");
       }
     } catch (error) {
-      console.error('An error occurred while sending form data:', error);
+      console.error("An error occurred while sending form data:", error);
     }
   };
-  
+
   const getScoreForHole = (index: number) => {
     return formData.scores[index - 1] || 0;
   };
 
   return (
     <form onSubmit={handleSubmit} className={styles.container}>
-      <h2>Golf Score Tracker</h2>
-      <div className={styles.inputWrapper}>
-        <label htmlFor="id">ID:</label>
-        <input
-          type="text"
-          id="id"
-          name="id"
-          value={formData.id}
-          onChange={handleInputChange}
-          className={styles.scoreInput}
-        />
-      </div>
-      <div className={styles.inputWrapper}>
-        <label htmlFor="course_id">Course ID:</label>
-        <input
-          type="text"
-          id="course_id"
-          name="course_id"
-          value={formData.course_id}
-          onChange={handleInputChange}
-          className={styles.scoreInput}
-        />
-      </div>
-      <div className={styles.inputWrapper}>
-        <label htmlFor="golfer_id">Golfer ID:</label>
-        <input
-          type="text"
-          id="golfer_id"
-          name="golfer_id"
-          value={formData.golfer_id}
-          onChange={handleInputChange}
-          className={styles.scoreInput}
-        />
+     
+      <div className={classNames(styles.data_wrapper)}>
+        <h2>Golf Score Tracker</h2>
+        <div className={styles.inputWrapper}>
+          <label htmlFor="id">Round number:</label>
+          <input
+            type="text"
+            id="id"
+            name="id"
+            value={formData.id}
+            onChange={handleInputChange}
+            className={styles.scoreInput}
+          />
+        </div>
+        <div className={styles.inputWrapper}>
+          <label htmlFor="course_id">Course Name:</label>
+          <input
+            type="text"
+            id="course_id"
+            name="course_id"
+            value={formData.course_id}
+            onChange={handleInputChange}
+            className={styles.scoreInput}
+          />
+        </div>
+        <div className={styles.inputWrapper}>
+          <label htmlFor="golfer_id">NGF #:</label>
+          <input
+            type="text"
+            id="golfer_id"
+            name="golfer_id"
+            value={formData.golfer_id}
+            onChange={handleInputChange}
+            className={styles.scoreInput}
+          />
+        </div>
+        <div className={styles.inputWrapper}>
+          <label htmlFor="golfer_id">NGF # marker:</label>
+          <input
+            type="text"
+            id="golfer_id"
+            name="golfer_id"
+            value={formData.golfer_id}
+            onChange={handleInputChange}
+            className={styles.scoreInput}
+          />
+        </div>
       </div>
       <table className={styles.scoreTable}>
         <thead>

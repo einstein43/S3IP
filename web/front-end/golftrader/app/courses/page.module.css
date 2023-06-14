@@ -1,12 +1,30 @@
 .main {
    
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   
     padding: 6rem;
     min-height: 100vh;
   }
   #cards_div {
-    display: flex;
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    #cards_div {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media only screen and (max-width: 787px) {
+    #cards_div {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 558px) {
+    #cards_div {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }

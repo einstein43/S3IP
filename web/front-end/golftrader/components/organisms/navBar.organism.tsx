@@ -81,10 +81,10 @@ export const NavBar = () => {
                     )}
                 >
                     <ul id={styles.mobileLinkContainer}>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Home</li>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Diensten</li>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Reviews</li>
-                        <li className={styles.mobileLink} onClick={() => handleClick('section-1')}>Contact</li>
+                        <li className={styles.mobileLink}> <Link href="/">Home</Link></li>
+                        <li className={styles.mobileLink}> <Link href="/dashboard">Dashboard</Link></li>
+                        <li className={styles.mobileLink}> <Link href="/scores">Scores</Link></li>
+                        <li className={styles.mobileLink}> <Link href="/courses">Courses</Link></li>
                     </ul>
                 </div>
             }

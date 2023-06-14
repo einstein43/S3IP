@@ -1,64 +1,85 @@
 .container {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .scoreTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 16px;
-  }
-  
-  .scoreTable th,
-  .scoreTable td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ccc;
-  }
-  
-  .scoreTable th {
-    background-color: #f2f2f2;
-  }
-  
-  .scoreInput {
-    width: 60px;
-    padding: 6px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .submitButton {
-    padding: 8px 16px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .submitButton:hover {
-    background-color: #45a049;
-  }
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
 
+#total_wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  background-color: var(--color-primary);
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.data_wrapper {
+  color: black;
+  grid-area: 1/1;
   
-  
-  .inputWrapper {
-    margin-bottom: 10px;
-  }
-  
-  .label {
-    font-weight: bold;
-    margin-right: 5px;
-  }
-  
-  .inputField {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  /* Add any additional styling you desire */
-  
-  
+}
+
+#input_wrapper {
+  grid-area: 1/2;
+}
+
+.scoreTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.scoreTable th,
+.scoreTable td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.scoreTable th {
+  background-color: #f2f2f2;
+}
+
+.scoreInput {
+  width: 100px;
+  padding: 6px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   
+}
+
+.submitButton {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.inputWrapper {
+  margin-bottom: 10px;
+  display: grid;
+    
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.inputField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Add any additional styling you desire */

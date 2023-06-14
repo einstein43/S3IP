@@ -12,7 +12,7 @@ Als je de app gebruikt buiten een ronde krijg je de volledige interface om alles
 
 
 
-Feedback van een gebruiker (os mam):
+<h2>Feedback van een gebruiker (os mam):</h2>
 
 homepagina: gebruiksvriendelijk, alleen navigatiebalk staat verschoven tenopzichte van inhoud pagina.
 Voor:

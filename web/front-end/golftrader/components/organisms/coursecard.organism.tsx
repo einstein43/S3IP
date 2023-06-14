@@ -22,10 +22,16 @@ export default function CourseCard() {
   const [courseData, setCourseData] = useState<Course[]>([{ id: 0, courseName: "Crossmoor", location: "Weert", price: 185, rating: 3.5, image:"" }]);
 
   useEffect(() => {
-    // Fetch data from "/courses/all" endpoint
-    fetch("http://localhost:3001/courses/all")
+    try {
+      fetch("http://localhost:3001/courses/all")
       .then((response) => response.json())
       .then((data) => setCourseData(data));
+    }
+    catch (error) {
+      console.error('Error fetching courses:', error)
+    }
+    // Fetch data from "/courses/all" endpoint
+    
   }, []);
 
   return (

@@ -19,8 +19,13 @@ export default function Dashboard() {
 
 
   useEffect(() => {
-    fetchRounds();
-    createCourseNames();
+    try {
+      fetchRounds();
+      createCourseNames();
+    }
+   catch (error) {
+    console.error('Error fetching rounds:', error)
+    }
   }, []);
 
   const fetchRounds = async () => {

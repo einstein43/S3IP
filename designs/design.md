@@ -14,7 +14,7 @@ Als je de app gebruikt buiten een ronde krijg je de volledige interface om alles
 
 <h2>Feedback van een gebruiker (os mam):</h2>
 
-homepagina: gebruiksvriendelijk, alleen navigatiebalk staat verschoven tenopzichte van inhoud pagina.
+homepagina: gebruiksvriendelijk, alleen navigatiebalk staat verschoven tenopzichte van inhoud pagina. </br>
 Voor:
 
 ![image](https://github.com/einstein43/S3IP/assets/104003514/a0bf5cb8-be41-461d-b229-028bec7f1c2b)
@@ -27,7 +27,7 @@ Na:
 
 
 
-Dashboard pagina: duidelijk
+Dashboard pagina: duidelijk </br>
   Feedback van Jean-Paul: de knoppen staan niet allemaal op dezelfde hoogte.
   
   Voor:

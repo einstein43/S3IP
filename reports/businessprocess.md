@@ -9,6 +9,7 @@ en daarna via de website van de golfbaan de scores nogmaals in te vullen.
 Met het nieuwe systeem kan je de scores tijdens een ronde bijhouden en dat scheelt werk en misverstanden over de scores met je marker. 
 
 <h2> oude systeem </h2>
+
 ![image](https://github.com/einstein43/S3IP/assets/104003514/1fde926a-565a-4089-bb67-bd45836e1156)
 
 Zoals je ziet is dit niet efficient en kan een klein foutje tijdens het opschrijven heel de kaart ongeldig verklaren. Dit komt vaan voor tijdens slecht weer - de kaart wordt nat en de scores zijn niet meer leesbaar,

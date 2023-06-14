@@ -28,7 +28,7 @@ To investigate SQL injection prevention, the following research strategies will 
 - Expert interviews
 
 ### Limitations
-- The scope of this report is focused on SQL injection prevention in the context of CORS.
+- The scope of this report is focused on SQL injection prevention.
 - The research is limited to the available resources and expertise of the researcher.
 
 ## Results
@@ -37,8 +37,11 @@ SQL injection prevention involves implementing various techniques and best pract
 Preventing SQL injection involves implementing techniques and practices to reduce the risk of attacks. Key strategies include:
 
 1. Input Validation: Validate user input to ensure trusted and expected data is processed.
+   - in my personal project 
 
 2. Prepared Statements and Parameterized Queries: Use statements that separate SQL logic from user input.
+    -In my personal Golftrader project i am using parameterized queries in the API calls to make sure it is impossible to send malificent data through API requests.
+    - I also use Prepared statements and controlled inputs in all the forms in the application that take an input.
 
 3. Least Privilege Principle: Grant minimal privileges to limit the impact of attacks.
 

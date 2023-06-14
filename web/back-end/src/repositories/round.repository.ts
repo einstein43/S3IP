@@ -74,4 +74,24 @@ export default class RoundRepository {
     }
     console.log("round deleted");
   }
+
+
+
+
+public async getAllCourses(): Promise<any> {  
+    try {
+      const courses = await prisma.courses.findMany({
+        
+      });
+      console.log("courses retrieved");
+
+      return courses;
+    } catch (error) {
+      console.error("could not find courses in repository");
+      throw new Error("could not find courses in repository");
+    }
+  }
+
+
+
 }

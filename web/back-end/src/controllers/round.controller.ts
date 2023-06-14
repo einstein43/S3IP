@@ -18,6 +18,7 @@ export class RoundController implements RoundController {
     this.postRound = this.postRound.bind(this);
     this.updateRound = this.updateRound.bind(this);
     this.deleteRound = this.deleteRound.bind(this);
+    this.getAllCourses = this.getAllCourses.bind(this);
   }
   public async getRoundById(req: Request, res: Response): Promise<void> {
     const round: Round = await this.roundService.getRoundById();
@@ -60,4 +61,16 @@ export class RoundController implements RoundController {
     res.header("Access-Control-Allow-Origin", "*");
     res.status(200).send();
   }
+
+public async getAllCourses(req: Request, res: Response): Promise<void> {
+    const courses = await this.roundService.getAllCourses();
+    res.header("Access-Control-Allow-Origin", "*");
+    res.status(200).send(courses);
+  }
+
+
+
+
+
+
 }

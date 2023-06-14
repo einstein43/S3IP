@@ -10,7 +10,7 @@ describe("RoundRepository tests", () => {
 
   beforeAll(() => {
     prisma = new PrismaClient();
-    roundRepository = new RoundRepository(); // Instantiate the RoundRepository class
+    roundRepository = new RoundRepository(); //  Instantiate the RoundRepository class
   });
 
   afterAll(async () => {
@@ -18,7 +18,7 @@ describe("RoundRepository tests", () => {
   });
 
   it("should update the round", async () => {
-    // Create a mock round object for testing
+    //  mak een mock object voor testing
     const round = {
       id: 1,
       course_id: 2,
@@ -26,10 +26,10 @@ describe("RoundRepository tests", () => {
       score: 72,
     };
 
-    // Call the updateRound method on the roundRepository instance
+    //  roep de updateRound methode aan op de roundRepository instance
     await expect(roundRepository.updateRound(round)).resolves.toBeUndefined();
 
-    // Verify that the round was updated
+    // verifieer dat de ronde is geupdatet
     const updatedRound = await prisma.rounds.findUnique({
       where: { id: round.id },
     });
@@ -38,7 +38,7 @@ describe("RoundRepository tests", () => {
   });
 
   it("should throw an error if the round update fails", async () => {
-    // Create a mock round object for testing
+    // maak mock object aan voor testing
     const round = {
       id: 1,
       course_id: 2,
@@ -46,12 +46,12 @@ describe("RoundRepository tests", () => {
       score: 72,
     };
 
-    // Mock the Prisma update method to throw an error
+    // mock prisma object aanmaken om een error te kunnen throwen
     jest
       .spyOn(prisma.rounds, "update")
       .mockRejectedValue(new Error("Mock update error"));
 
-    // Call the updateRound method on the roundRepository instance and expect it to throw an error
+    //  roep de updateRound methode aan op de roundRepository instance en verwacht een error
     await expect(roundRepository.updateRound(round)).rejects.toThrowError(
       "Failed to update round"
     );
@@ -63,7 +63,7 @@ describe("RoundRepository tests", () => {
 
     beforeAll(() => {
       prisma = new PrismaClient();
-      roundRepository = new RoundRepository(); // Instantiate the RoundRepository class
+      roundRepository = new RoundRepository(); //  Instantiate the RoundRepository class
     });
 
     afterAll(async () => {
@@ -71,7 +71,7 @@ describe("RoundRepository tests", () => {
     });
 
     it("should create a round", async () => {
-      // Create a mock round object for testing
+      // maak mock object aan voor testing
       const round = {
         id: 1,
         course_id: 2,
@@ -79,10 +79,10 @@ describe("RoundRepository tests", () => {
         score: 72,
       };
 
-      // Call the postRound method on the roundRepository instance
+      //  roep de postRound methode aan op de roundRepository instance
       await expect(roundRepository.postRound(round)).resolves.toBeUndefined();
 
-      // Verify that the round was created
+      //  verifieer dat de ronde is aangemaakt
       const createdRound = await prisma.rounds.findUnique({
         where: { id: round.id },
       });
@@ -91,7 +91,7 @@ describe("RoundRepository tests", () => {
     });
 
     it("should throw an error if the round creation fails", async () => {
-      // Create a mock round object for testing
+      //  maak mock object aan voor testing
       const round = {
         id: 1,
         course_id: 2,
@@ -99,12 +99,12 @@ describe("RoundRepository tests", () => {
         score: 72,
       };
 
-      // Mock the Prisma create method to throw an error
+      //  mock prisma object aanmaken om een error te kunnen throwen
       jest
         .spyOn(prisma.rounds, "create")
         .mockRejectedValue(new Error("Mock create error"));
 
-      // Call the postRound method on the roundRepository instance and expect it to throw an error
+      // roep de postRound methode aan op de roundRepository instance en verwacht een error
       await expect(roundRepository.postRound(round)).rejects.toThrowError(
         "Failed to create round"
       );
@@ -113,7 +113,7 @@ describe("RoundRepository tests", () => {
 
   beforeAll(() => {
     prisma = new PrismaClient();
-    roundRepository = new RoundRepository(); // Instantiate the RoundRepository class
+    roundRepository = new RoundRepository(); //  Instantiate the RoundRepository class
   });
 
   afterAll(async () => {
@@ -121,7 +121,7 @@ describe("RoundRepository tests", () => {
   });
 
   it('should delete a round', async () => {
-    // Create a mock round object for testing
+    //  maak mock object aan voor testing
     const round = {
       id: 1,
       course_id: 2,
@@ -129,15 +129,15 @@ describe("RoundRepository tests", () => {
       score: 72,
     };
 
-    // Create the round in the database to delete it
+    // voeg de ronde toe aan de database
     await prisma.rounds.create({
       data: round,
     });
 
-    // Call the deleteRound method on the roundRepository instance
+    //  roep de deleteRound methode aan op de roundRepository instance
     await expect(roundRepository.deleteRound(round.id)).resolves.toBeUndefined();
 
-    // Verify that the round was deleted
+    // verifieer dat de ronde is verwijderd
     const deletedRound = await prisma.rounds.findUnique({
       where: { id: round.id },
     });
@@ -146,13 +146,13 @@ describe("RoundRepository tests", () => {
   });
 
   it('should throw an error if the round deletion fails', async () => {
-    // Create a mock round ID for testing
+    //  maak mock object aan voor testing
     const roundId = 1;
 
-    // Mock the Prisma delete method to throw an error
+    //  mock prisma object aanmaken om een error te kunnen throwen
     jest.spyOn(prisma.rounds, 'delete').mockRejectedValue(new Error('Mock delete error'));
 
-    // Call the deleteRound method on the roundRepository instance and expect it to throw an error
+    //  roep de deleteRound methode aan op de roundRepository instance en verwacht een error
     await expect(roundRepository.deleteRound(roundId)).rejects.toThrowError('Failed to delete round');
   });
 });

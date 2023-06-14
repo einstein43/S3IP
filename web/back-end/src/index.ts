@@ -50,6 +50,16 @@ app.get("/golfer/one", async (req: Request, res: Response) => {
   return await golferController.getGolferById(req, res);
 });
 
+
+{
+  /* course endpoints */
+}
+app.get("courses/all", async (req: Request, res: Response) => {
+  return await roundController.getAllCourses(req, res);
+
+});
+
+
 {
   /* round endpoints */
 }

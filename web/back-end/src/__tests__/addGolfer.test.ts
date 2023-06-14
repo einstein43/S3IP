@@ -18,7 +18,7 @@ describe("GolferRepository tests", () => {
     });
     
     it("should update the golfer", async () => {
-        // Create a mock golfer object for testing
+        // test object voor testing
         const golfer = {
         id: 1,
         fName: "John",
@@ -34,7 +34,7 @@ describe("GolferRepository tests", () => {
       
         beforeAll(() => {
           prisma = new PrismaClient();
-          golferRepository = new GolferRepository(); // Instantiate the GolferRepository class
+          golferRepository = new GolferRepository(); // maak de GolferRepository class aan
         });
       
         afterAll(async () => {
@@ -42,7 +42,7 @@ describe("GolferRepository tests", () => {
         });
       
         it('should retrieve a golfer by ID', async () => {
-          // Create a mock golfer object for testing
+          // test golfer object voor testing
           const golfer = {
             id: 1,
             name: 'John Doe',
@@ -50,15 +50,15 @@ describe("GolferRepository tests", () => {
             handicap: 10,
           };
       
-          // Create the golfer in the database to retrieve it
+          // Golfer toevoegen aan database
           await prisma.golfers.create({
             data: golfer,
           });
       
-          // Call the getGolferById method on the golferRepository instance
+          // roep getgolferbyid aan op de golferRepository instance
           await expect(golferRepository.getGolferById(golfer.id)).resolves.toBeUndefined();
       
-          // Verify that the golfer was retrieved
+          // check of de golfer is opgehaald
           const retrievedGolfer = await prisma.golfers.findUnique({
             where: { id: golfer.id },
           });
@@ -67,20 +67,20 @@ describe("GolferRepository tests", () => {
         });
       
         it('should throw an error if the golfer retrieval fails', async () => {
-          // Create a mock golfer ID for testing
+          // test id object voor testing
           const golferId = 1;
       
-          // Mock the Prisma findUnique method to throw an error
+          // prisma findunique voor error test
           jest.spyOn(prisma.golfers, 'findUnique').mockRejectedValue(new Error('Mock retrieval error'));
       
-          // Call the getGolferById method on the golferRepository instance and expect it to throw an error
+          // roep getgolferbyid aan op de golferRepository instance en verwacht een error
           await expect(golferRepository.getGolferById(golferId)).rejects.toThrowError('Failed to retrieve golfer');
         });
       });
 
       beforeAll(() => {
         prisma = new PrismaClient();
-        golferRepository = new GolferRepository(); // Instantiate the GolferRepository class
+        golferRepository = new GolferRepository(); //  maak de GolferRepository class aan
       });
     
       afterAll(async () => {
@@ -88,7 +88,7 @@ describe("GolferRepository tests", () => {
       });
     
       it('should delete a golfer by ID', async () => {
-        // Create a mock golfer object for testing
+        //  test golfer object voor testing
         const golfer = {
           id: 1,
           name: 'John Doe',
@@ -96,15 +96,15 @@ describe("GolferRepository tests", () => {
           handicap: 10,
         };
     
-        // Create the golfer in the database to delete it
+        //  Golfer toevoegen aan database
         await prisma.golfers.create({
           data: golfer,
         });
     
-        // Call the deleteGolferById method on the golferRepository instance
+        //  roep deletegolferbyid aan op de golferRepository instance
         await expect(golferRepository.deleteGolferById(golfer.id)).resolves.toBeUndefined();
     
-        // Verify that the golfer was deleted
+        //  check of de golfer is verwijderd
         const deletedGolfer = await prisma.golfers.findUnique({
           where: { id: golfer.id },
         });
@@ -113,13 +113,13 @@ describe("GolferRepository tests", () => {
       });
     
       it('should throw an error if the golfer deletion fails', async () => {
-        // Create a mock golfer ID for testing
+        // test id object voor testing
         const golferId = 1;
     
-        // Mock the Prisma delete method to throw an error
+        
         jest.spyOn(prisma.golfers, 'delete').mockRejectedValue(new Error('Mock deletion error'));
     
-        // Call the deleteGolferById method on the golferRepository instance and expect it to throw an error
+        //  roep deletegolferbyid aan op de golferRepository instance en verwacht een error
         await expect(golferRepository.deleteGolferById(golferId)).rejects.toThrowError('Failed to delete golfer');
       });
     });

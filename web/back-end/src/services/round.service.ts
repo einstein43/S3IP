@@ -35,4 +35,12 @@ export class RoundService implements RoundService {
     console.log("deleteRoundById service");
     await this.roundRepository.deleteRound(id);
   }
+
+
+public async getAllCourses(): Promise<void> {
+    const courses = await this.roundRepository.getAllCourses();
+    return courses;
+  }
+
+
 }

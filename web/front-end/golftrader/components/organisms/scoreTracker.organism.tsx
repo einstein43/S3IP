@@ -146,7 +146,7 @@ const GolfScoreTracker: React.FC = () => {
           ))}
         </tbody>
       </table>
-      <button type="submit" className={styles.submitButton}>
+      <button id={styles.submit_buttontje} type="submit" className={styles.submitButton}>
         Submit
       </button>
     </form>

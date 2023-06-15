@@ -5,7 +5,7 @@
     grid-template-rows: auto min-content;
     column-gap: clamp(25px, 10vw, 150px);
     background-color: var(--color-grey-primary);
-}
+ }
 
 /* Logo */
 #logoWrap {
@@ -19,7 +19,7 @@
 }
 
 /* Section */
-.section {
+.section { 
     display: grid;
     grid-template-rows: min-content min-content;
     row-gap: 5px;

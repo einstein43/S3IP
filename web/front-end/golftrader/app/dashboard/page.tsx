@@ -45,24 +45,27 @@ export default function Dashboard() {
   const createCourseNames = () => {
     // Create a list of course names manually or from any source
     const names = [
-      "Crossmoor, Weert",
+      "Golfbaan Crossmoor, Weert",
       "Het woold, Asten-Heusden",
       "De tongelreep, Eindhoven",
       "De swinkelsche, Someren",
-      "De gulbergen, Mierlo",
+      "Golfbaan De gulbergen, Mierlo",
       "De schoot, Sint-Oedenrode",
-      "De stippelberg, Bakel",
-      "De berckt, Baarlo",
+      "Golfbaan De stippelberg, Bakel",
+      "Golfbaan De berckt, Baarlo",
       "De peelse, Evertsoord",
       "De golfhorst, America",
       "De brugse vaart, Oostburg",
       "De domburgsche, Domburg",
       "De zeeuwsche, Middelburg",
-      "De goese, Goes",
-      "De molenberg, Burgh-Haamstede",
-      "De herkenbosche, Herkenbosch",
+      "Golf & Countryclub De goese, Goes",
+      "Golfbaan De molenberg, Burgh-Haamstede",
+      "Golfbaan De herkenbosche, Herkenbosch",
       "De hooge rotterdamsche, Bergschenhoek",
-      "De rozenstein, Wassenaar",
+      "Golfbaan De rozenstein, Wassenaar",
+      "Golfbaan De rozenstein, Wassenaar",
+      "Golfbaan De rozenstein, Wassenaar",
+      "Golfbaan De rozenstein, Wassenaar",
       // Add more course names as needed
     ];
     setCourseNames(names);
@@ -140,7 +143,7 @@ export default function Dashboard() {
           {rounds.map((round) => (
             <div key={round.id} className={styles.card}>
               <p>Round ID: {round.id}</p>
-              <p>Course Name: {courseNames[round.course_id - 1]}</p>
+              <p id={styles.name_p}>Course Name: {courseNames[round.course_id - 1]}</p>
               <p>Golfer ID: {round.golfer_id}</p>
               <p>Score: {round.score}</p>
               <div className={styles.buttons}>

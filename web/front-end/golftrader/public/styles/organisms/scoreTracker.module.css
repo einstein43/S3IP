@@ -20,6 +20,9 @@
   grid-area: 1/1;
   
 }
+#submit_buttontje {
+  grid-area: 2/2;
+}
 
 #input_wrapper {
   grid-area: 1/2;

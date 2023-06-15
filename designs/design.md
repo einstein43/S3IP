@@ -14,7 +14,7 @@ Als je de app gebruikt buiten een ronde krijg je de volledige interface om alles
 
 <h2>Feedback van een gebruiker (os mam):</h2>
 
-homepagina: gebruiksvriendelijk, alleen navigatiebalk staat verschoven tenopzichte van inhoud pagina. </br>
+homepagina: gebruiksvriendelijk, alleen navigatiebalk staat verschoven tenopzichte van inhoud pagina. En groene kleur is niet mooi.</br>
 Voor:
 
 ![image](https://github.com/einstein43/S3IP/assets/104003514/a0bf5cb8-be41-461d-b229-028bec7f1c2b)
@@ -24,7 +24,7 @@ Na:
 ![image](https://github.com/einstein43/S3IP/assets/104003514/8931fe19-b4a8-40f3-bf0d-d36e6c7a097d)
 
       -aangepast, afbeelding wrapper nam overbodig veel ruimte in beslag dus duwde heel de content naar rechts toe.
-
+      -aangepast, video op de homepage gezet
 
 
 Dashboard pagina: duidelijk </br>

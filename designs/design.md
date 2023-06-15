@@ -23,6 +23,16 @@ Na:
 
 ![image](https://github.com/einstein43/S3IP/assets/104003514/8931fe19-b4a8-40f3-bf0d-d36e6c7a097d)
 
+</br>
+Na nog meer feedback van de gebruiker heb ik een video op de homepagina gezet.
+
+Na 2:
+
+</br>
+
+![image](https://github.com/einstein43/S3IP/assets/104003514/9e659c89-9b4a-4396-9b69-ceed82e50a3c)
+
+</br>
       -aangepast, afbeelding wrapper nam overbodig veel ruimte in beslag dus duwde heel de content naar rechts toe.
       -aangepast, video op de homepage gezet
 

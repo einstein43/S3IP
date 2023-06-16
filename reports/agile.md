@@ -54,11 +54,11 @@ Agile project management offers several benefits and follows key principles that
 
 ## Bronnen
 
-[^1]: [Agile Alliance](https://www.agilealliance.org/)
+[^1]:  https://www.techtarget.com/searchcio/definition/Agile-project-management
 [^2]: [Project Management Institute (PMI) - Agile Practice Guide](https://www.pmi.org/pmbok-guide-standards/practice-guides/agile)
 [^3]: [Scrum.org](https://www.scrum.org/)
-[^4]: [Scaled Agile](https://www.scaledagile.com/)
-[^5]: [Atlassian - Agile Project Management](https://www.atlassian.com/agile/project-management)
+[^4]:  https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/
+[^5]:  https://www.coursera.org/articles/what-is-agile-a-beginners-guide
  
 
 

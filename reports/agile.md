@@ -37,28 +37,28 @@ Agile project management offers several benefits and follows key principles that
 ### Benefits of Agile Project Management
 
 
-1. Flexibility: Agile embraces change and allows for adaptability throughout the project. It enables teams to respond quickly to evolving requirements, stakeholder feedback, and market dynamics.
+1. Flexibility[^2]: Agile embraces change and allows for adaptability throughout the project. It enables teams to respond quickly to evolving requirements, stakeholder feedback, and market dynamics.
 
-2. Collaboration: Agile emphasizes strong teamwork and collaboration among team members, stakeholders, and customers. It fosters effective communication, knowledge sharing, and collective decision-making.
+2. Collaboration[^2]: Agile emphasizes strong teamwork and collaboration among team members, stakeholders, and customers. It fosters effective communication, knowledge sharing, and collective decision-making.
 
-3. Faster Time-to-Market: Agile enables faster delivery of valuable increments. By breaking the project into smaller iterations, teams can deliver working software or tangible results at regular intervals. This iterative approach allows for early feedback and shorter time-to-market.
+3. Faster Time-to-Market[^2]: Agile enables faster delivery of valuable increments. By breaking the project into smaller iterations, teams can deliver working software or tangible results at regular intervals. This iterative approach allows for early feedback and shorter time-to-market.
 
 
 ### Key Principles of Agile Project Management
 
 
-1. Iterative Approach: Agile divides the project into small iterations or sprints. Each iteration delivers a working increment, allowing for continuous feedback and adaptation.
+1. Iterative Approach: Agile divides the project into small iterations or sprints. Each iteration delivers a working increment, allowing for continuous feedback and adaptation[^5].
 
-2. Customer Collaboration: Agile actively involves customers throughout the project. Open communication ensures their needs are understood and met, maximizing satisfaction.
+2. Customer Collaboration: Agile actively involves customers throughout the project. Open communication ensures their needs are understood and met, maximizing satisfaction[^4].
 
 
 ## Bronnen
 
-- [Agile Alliance](https://www.agilealliance.org/)
-- [Project Management Institute (PMI) - Agile Practice Guide](https://www.pmi.org/pmbok-guide-standards/practice-guides/agile)
-- [Scrum.org](https://www.scrum.org/)
-- [Scaled Agile](https://www.scaledagile.com/)
-- [Atlassian - Agile Project Management](https://www.atlassian.com/agile/project-management)
-- [Manifesto for Agile Software Development](https://agilemanifesto.org/)
+[^1]: [Agile Alliance](https://www.agilealliance.org/)
+[^2]: [Project Management Institute (PMI) - Agile Practice Guide](https://www.pmi.org/pmbok-guide-standards/practice-guides/agile)
+[^3]: [Scrum.org](https://www.scrum.org/)
+[^4]: [Scaled Agile](https://www.scaledagile.com/)
+[^5]: [Atlassian - Agile Project Management](https://www.atlassian.com/agile/project-management)
+ 
 
 

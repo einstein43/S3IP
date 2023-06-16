@@ -17,9 +17,9 @@ Dutch students are often sociable and comfortable working in groups[^4].
 However, Dutch students may have a more relaxed attitude towards time and adopt a flexible approach. Finnish students, on the other hand, place a high emphasis on punctuality and value efficiency[^5].
 
 Conclusion:
-In conclusion, there are notable cultural differences between Finnish and Dutch students. 
-These differences manifest in communication style, individualism vs. collectivism, hierarchy and equality, as well as attitudes towards punctuality. 
-Recognizing and respecting these differences can facilitate effective cross-cultural communication and collaboration among students from both backgrounds.
+In conclusion, there are a few cultural differences between Finnish and Dutch students. 
+These differences manifest in communication style, individualism vs. collectivism,  as well as attitudes towards punctuality. 
+Recognizing and respecting these differences can help cross-cultural communication and collaboration among students from both backgrounds.
 
 Bronnen:
 [^1]: https://www.afsusa.org/countries/finland/#afs-nav-language

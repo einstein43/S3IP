@@ -53,7 +53,7 @@ By understanding the characteristics, methodologies, and application areas of Ag
 
 ## Sources
 - List of relevant sources
-- [^1]:https://kanbanzone.com/2020/six-sigma-and-agile-can-they-work-together/#:~:text=Six%20Sigma%20focuses%20on%20process,team%20interaction%20and%20customer%20collaboration.  
-- [^2]: https://www.henryharvin.com/blog/six-sigma-vs-agile/
-- [^3]: https://www.simplilearn.com/what-is-six-sigma-a-complete-overview-article#:~:text=Six%20Sigma%20is%20a%20set,3.4%20defects%20per%20million%20opportunities.
-- [^4]: https://www.coursera.org/articles/what-is-agile-a-beginners-guide
+[^1]:https://kanbanzone.com/2020/six-sigma-and-agile-can-they-work-together/#:~:text=Six%20Sigma%20focuses%20on%20process,team%20interaction%20and%20customer%20collaboration.  
+[^2]: https://www.henryharvin.com/blog/six-sigma-vs-agile/
+[^3]: https://www.simplilearn.com/what-is-six-sigma-a-complete-overview-article#:~:text=Six%20Sigma%20is%20a%20set,3.4%20defects%20per%20million%20opportunities.
+[^4]: https://www.coursera.org/articles/what-is-agile-a-beginners-guide

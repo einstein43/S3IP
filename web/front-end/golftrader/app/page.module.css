@@ -2,18 +2,21 @@
   /* flex-direction: column;
   justify-content: space-between;
   align-items: center; */
-   
+
   background: var(--color-grey-tertiery);
-  background: radial-gradient(circle, rgba(133,200,114,1) 28%, rgba(239,255,224,1) 84%);
+  background: radial-gradient(
+    circle,
+    rgba(133, 200, 114, 1) 28%,
+    rgba(239, 255, 224, 1) 84%
+  );
   min-height: 100vh;
   display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   align-items: center;
-
- }
+}
 
 #video_div {
   overflow: hidden;
@@ -23,13 +26,12 @@ grid-row-gap: 0px;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 4;
-   
 }
 
 #welcome_div {
-   grid-area: 2/2;
- z-index: 2;
-   display: grid;
+  grid-area: 2/2;
+  z-index: 2;
+  display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-column-gap: 0px;
@@ -40,10 +42,9 @@ grid-row-gap: 0px;
 #welcome_text {
   grid-area: 2/2;
   font-size: 55px;
-  color: #85C872;
+  color: #85c872;
   overflow: hidden;
-  text-shadow: 0px 0px 10px #85C872;
-
+  text-shadow: 0px 0px 10px #85c872;
 }
 #welcome_desc {
   text-shadow: 0px 0px 10px var(--color-blue-primary);
@@ -55,25 +56,6 @@ grid-row-gap: 0px;
 #button {
   grid-area: 4/2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #card_collection {
   display: flex;

@@ -10,7 +10,7 @@ import { useState } from "react";
 import classNames from "classnames";
 import Link from "next/link";
 
-export const NavBar = () => {
+ export const NavBar = () => {
   // State
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 

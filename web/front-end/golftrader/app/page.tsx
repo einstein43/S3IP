@@ -23,7 +23,7 @@ export default function Home() {
           <Video1></Video1>
         </div>
         <div id={styles.welcome_div}>
-        <div id={styles.welcome_text}>Welcome to Golftrader!</div>
+        <div id={styles.welcome_text}>Welcome to Golftrader</div>
         <div id={styles.welcome_desc}>Get started by creating a round</div>
         <Button
           id={styles.button}

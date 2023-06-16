@@ -2,6 +2,7 @@ import { ButtonHTMLAttributes, ReactNode } from 'react'
 import styles from '../../public/styles/atoms/button.module.css'
 import classNames from 'classnames'
 import Image from 'next/image'
+import React from 'react'
 
 interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     theme: string,
@@ -29,7 +30,7 @@ export const Button = ({
                 styles.button,
                 styles[theme], // Theme
                 styles[size], // Size
-                icon && styles.button__icon, // Icon
+                 
             )}
             {...restProps}
         >

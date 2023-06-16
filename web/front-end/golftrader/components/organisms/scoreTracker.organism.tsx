@@ -7,7 +7,7 @@ interface Score {
   score: number;
 }
 
-const GolfScoreTracker: React.FC = () => {
+const GolfScoreTracker = () => {
   const [formData, setFormData] = useState({
     id: "",
     course_id: "",

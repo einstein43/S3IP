@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "../../public/styles/organisms/footer.module.css";
 import logo from '../../public/golftrader_1.svg'
+import React from "react";
 
 export const Footer = () => {
   // Fn - handle click
@@ -62,7 +63,7 @@ export const Footer = () => {
               Scores
             </li>
             <li className={styles.li} onClick={() => handleClick("section-1")}>
-              Contact
+              Courses
             </li>
           </ul>
         </div>

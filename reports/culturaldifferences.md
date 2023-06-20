@@ -36,7 +36,7 @@ Finnish students have a long-term orientation, valuing persistence, patience, an
 <p>Also, (not on the Hofstede index):</p>
 
 <h6>3.0 Communication Style:</h6>
-Finnish students tend to be reserved and prefer direct communication. They rely on non-verbal cues and expect concise expressions of opinions.[^1]
+Finnish students tend to be reserved and prefer direct communication. They rely on non-verbal cues and expect concise expressions of opinions[^7].
 In contrast, Dutch students are generally more open and expressive, valuing direct and honest communication. [^2]
 
 3.1 While working with the students when we were visiting Oulu, I noticed that the finnish students were indeed more reserved than us Dutch people.

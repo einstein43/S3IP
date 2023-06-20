@@ -9,11 +9,23 @@ In this report the Hofstede index[^7] is used, it is a tool developed by Geert H
 
 In the case of Finnish and Dutch students, two aspects of the Hofstede index stand out:
 
+</br>
+![image](https://github.com/einstein43/S3IP/assets/104003514/680379bb-7a08-454f-99e4-90f7111cf69b)
+</br>
+
 1.0 Individualism vs. Collectivism:
+</br>
+![image](https://github.com/einstein43/S3IP/assets/104003514/c2acdfcb-419e-4830-8a85-9d6e017af51b)
+</br>
+
 Finnish culture values independence and personal achievements. Finnish students often prefer working alone and appreciate having their own space. On the other hand, Dutch culture emphasizes teamwork and collaboration. Dutch students tend to be social and enjoy working in groups.
 
-2.0 Dealing with Uncertainty:
-In Finnish culture, there is a greater acceptance of ambiguity and unpredictability. Finnish students are more comfortable with uncertain situations and are willing to take risks. In contrast, Dutch culture prefers structure and clear expectations. Dutch students feel more at ease when things are well-defined and certain.
+2.0 Long-Term Orientation:
+</br>
+![image](https://github.com/einstein43/S3IP/assets/104003514/da94eb52-0669-4eb1-b26a-445b6371789b)
+</br>
+Finnish students have a long-term orientation, valuing persistence, patience, and considering future outcomes. They prioritize sustainability and are willing to adapt to changing circumstances while considering the long-term consequences of their decisions.
+
 
 Also, (not on the Hofstede index):
 

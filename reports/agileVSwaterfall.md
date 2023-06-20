@@ -1,7 +1,7 @@
-# Research Report: Agile vs Six Sigma
+# Research Report: Agile vs waterfall
 
 ## Table of Contents
-- [Research Report: Agile vs Waterfall](#research-report-agile-vs-six-sigma)
+- [Research Report: Agile vs Waterfall](#research-report-agile-vs-waterfall)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Methodology](#methodology)

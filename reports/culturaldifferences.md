@@ -35,21 +35,21 @@ Finnish students have a long-term orientation, valuing persistence, patience, an
 
 <p>Also, (not on the Hofstede index):</p>
 
-<h6>3.0 Communication Style:<h6>
+<h6>3.0 Communication Style:</h6>
 Finnish students tend to be reserved and prefer direct communication. They rely on non-verbal cues and expect concise expressions of opinions. [^1]
 In contrast, Dutch students are generally more open and expressive, valuing direct and honest communication. [^2]
 
 3.1 While working with the students when we were visiting Oulu, I noticed that the finnish students were indeed more reserved than us Dutch people.
 This did not result in any communication errors as we were all honest and direct to each other during our conversations.
 
-<h6>4.0 Punctuality:<h6>
+<h6>4.0 Punctuality:</h6>
 Both Finnish and Dutch students generally value punctuality. 
 However, Dutch students may have a more relaxed attitude towards time and adopt a flexible approach. Finnish students, on the other hand, place a high emphasis on punctuality and value efficiency. [^5]
 
 4.1 When whe arrived back in the Netherlands and had to work remotely from the Finnish part of our team, we needed to be punctual when it came to meetings and delivering tasks we were assigned on time. This came with some difficulties as the Finnish students had different school schedules and holidays. But there were no big troubles in the end.
 
 
-<h6>Conclusion:<h6>
+<h6>Conclusion:</h6>
 In conclusion, there are a few cultural differences between Finnish and Dutch students. 
 These differences manifest in communication style, individualism vs. collectivism,  as well as attitudes towards punctuality. 
 Recognizing and respecting these differences can help cross-cultural communication and collaboration among students from both backgrounds.

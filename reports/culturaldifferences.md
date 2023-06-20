@@ -10,7 +10,9 @@ In this report the Hofstede index[^7] is used, it is a tool developed by Geert H
 In the case of Finnish and Dutch students, two aspects of the Hofstede index stand out:
 
 </br>
+
 ![image](https://github.com/einstein43/S3IP/assets/104003514/680379bb-7a08-454f-99e4-90f7111cf69b)
+
 </br>
 
 1.0 Individualism vs. Collectivism:

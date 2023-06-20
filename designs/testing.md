@@ -1,25 +1,37 @@
-<h1> Front-end unit testing </h1>
+<h2> Front-end unit testing </h2>
+</br>
+<h6>Button test:</h6>
 </br>
 
-![image](https://github.com/einstein43/S3IP/assets/104003514/de8589ec-12c9-44a8-a5d4-3d218fad847b)
+![image](https://github.com/einstein43/S3IP/assets/104003514/6b6854f8-8a61-44d5-955d-1a477e007915)
+ 
+</br>
+<h6>Footer tests:</h6>
+</br>
+
+![image](https://github.com/einstein43/S3IP/assets/104003514/3b60c0e9-7453-4d4c-b585-fb8ace287ad1)
+
+</br>
+<h6>HamburgerButton (navbar) test: </h6>
+</br>
+
+![image](https://github.com/einstein43/S3IP/assets/104003514/63bcb434-21d0-4943-9493-f80d1ae8ed74)
+
+ 
+</br>
+<h6>scoreTracker tests:</h6>
+</br>
+
+![image](https://github.com/einstein43/S3IP/assets/104003514/a64140d5-2611-4a87-a177-be65cb8e92e2)
+
+ 
+</br>
+<h6>Video test</h6>
+</br>
+
+![image](https://github.com/einstein43/S3IP/assets/104003514/a46d7469-45ce-4a26-a535-3e45d6d0c007)
+
 
 </br>
 
-![image](https://github.com/einstein43/S3IP/assets/104003514/dc4ec34d-19cd-455d-bec1-00bab84000a1)
 
-</br>
-
-![image](https://github.com/einstein43/S3IP/assets/104003514/8b8d3292-03da-4939-ad99-8107d978658f)
-
-</br>
-
-![image](https://github.com/einstein43/S3IP/assets/104003514/c8538561-668d-4df1-aa9f-7f0fa80d6d76)
-
-</br>
-
-![image](https://github.com/einstein43/S3IP/assets/104003514/3321ff60-c6fe-44ee-862d-bd810440c2dc)
-
-</br>
-
-
-<p> dit zijn een paar stukken van de totaal 7 tests. </p>

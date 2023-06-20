@@ -10,14 +10,15 @@ Front-end:
 API:
 </br>
 
-![image](https://github.com/einstein43/S3IP/assets/104003514/fbd93319-e4ba-42d9-b115-34ae32526891)
+![image](https://github.com/einstein43/S3IP/assets/104003514/1e535c68-9fe8-40de-809a-af9733fdbfd1)
 
 
  </br>
  Database:
  </br>
  
- ![image](https://github.com/einstein43/S3IP/assets/104003514/aa4730e3-073b-4f24-9947-29335b92ce1b)
+ ![image](https://github.com/einstein43/S3IP/assets/104003514/ec2ae11a-932a-4a35-b913-f44c4e9f1f39)
+
 
 
 

@@ -19,8 +19,8 @@
 ## Methodology
 
 ### Research Strategies
-1. Literature Review: Comprehensive review of trusted sources, including academic papers, industry publications, and case studies, to understand the principles, methodologies, and application areas of Agile and Six Sigma project management.
-2. Case Studies: Analysis of real-world examples of projects that have implemented Agile or Six Sigma methodologies, examining the outcomes and challenges faced.
+1. Literature Review: Comprehensive review of trusted sources, including academic papers, industry publications, and case studies, to understand the principles, methodologies, and application areas of Agile and Waterfall project management.
+2. Case Studies: Analysis of real-world examples of projects that have implemented Agile or Waterfall methodologies, examining the outcomes and challenges faced.
  
 ### Instruments
 - Literature review: Academic papers, industry publications, case studies

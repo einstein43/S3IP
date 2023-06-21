@@ -2,7 +2,7 @@
 <h1>Cultural differences between Finnish and Dutch students</h1>
 
 
-Introduction:
+# Introduction:
 This report aims to provide a brief overview of the cultural differences between Finnish and Dutch students.  
 
 In this report the Hofstede index [^7] is used, it is a tool developed by Geert Hofstede to compare cultural differences between countries on multiple aspects.
@@ -24,14 +24,15 @@ In the case of Finnish and Dutch students, two aspects of the Hofstede index sta
 
 Finnish culture values independence and personal achievements. Finnish students often prefer working alone and appreciate having their own space. On the other hand, Dutch culture emphasizes teamwork and collaboration. Dutch students tend to be social and enjoy working in groups. 
 
-
+<h6>Personal experience</h6>
 During our stay in Finland we noticed that outside of the school environment the Finnish students were barely socially active.
 During the week they spend alot of time at their homes and dont really go out much to do stuff. Some students practiced a sport, a few had a side-job in some sort of social sector but it was definetely a big difference with how it goes here in the Netherlands, as we tend to be more socially active during the week. That translated a bit in the group project. I noticed that while we were working together in a group, they kept themselves quiet most of the time and only spoke when asked something.
 On the other hand, us Dutch students were more socially active during the worktime, not in a small talk type of way, but more in a useful way. We discussed alot of tasks that we had to work on and asked for tips or help from the other students - which they always gladly gave. 
 
+Also, our teacher Frank made us do a personality test on the first day of working together with the Finnish students. And as you would expect, the gross of the Finnish side was more introverted and anti-social, but also had the good trait of an independent mindset.
 
 
-<h6>2.0 Long-Term Orientation:</h6>h6>
+<h6>2.0 Long-Term Orientation:</h6>
 </br>
 
 ![image](https://github.com/einstein43/S3IP/assets/104003514/da94eb52-0669-4eb1-b26a-445b6371789b)
@@ -39,6 +40,13 @@ On the other hand, us Dutch students were more socially active during the workti
 </br>
 Finnish students have a long-term orientation, valuing persistence, patience, and considering future outcomes. They prioritize sustainability and are willing to adapt to changing circumstances while considering the long-term consequences of their decisions.
 
+
+<h6>Personal experience</h6>
+
+This was also one of the differences in mindsets for the Finnish and Dutch students. They were in a way very logical when thinking about the project and the tasks ahead of them, clearly mapping out what had to be done and making sure it was possible to complete in set time. The Dutch were more impulsive, that might come over as thoughtless from time to time, and we had a more "ahh we'll see" mentality which is (on some occasions) a good mentality to have when being in a environment that requires acceptance and adaptation - like an exchange to a different country with no prior experience in working internationally and/or remotely.
+
+
+</br>
 
 <p>Also, (not on the Hofstede index):</p>
 

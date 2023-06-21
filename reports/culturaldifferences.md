@@ -43,7 +43,8 @@ Finnish students have a long-term orientation, valuing persistence, patience, an
 
 <h6>Personal experience</h6>
 
-This was also one of the differences in mindsets for the Finnish and Dutch students. They were in a way very logical when thinking about the project and the tasks ahead of them, clearly mapping out what had to be done and making sure it was possible to complete in set time. The Dutch were more impulsive, that might come over as thoughtless from time to time, and we had a more "ahh we'll see" mentality which is (on some occasions) a good mentality to have when being in a environment that requires acceptance and adaptation - like an exchange to a different country with no prior experience in working internationally and/or remotely.
+This was also one of the differences in mindsets for the Finnish and Dutch students. They were in a way very logical when thinking about the project and the tasks ahead of them, clearly mapping out what had to be done and making sure it was possible to complete in set time. The Dutch were more impulsive, that might come over as thoughtless from time to time, and we had a more "ahh we'll see" mentality which is (on some occasions) a good mentality to have when being in a environment that requires acceptance and adaptation - like an exchange to a different country with no prior experience in working internationally and/or remotely. 
+So having the differences that we have, I think the Finnish are good counterparts to the Dutch when working in a team. We explore the possibilities, while they watch over the path so we dont get lost.
 
 
 </br>

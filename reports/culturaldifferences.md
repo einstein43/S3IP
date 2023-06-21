@@ -22,7 +22,14 @@ In the case of Finnish and Dutch students, two aspects of the Hofstede index sta
 
 </br>
 
-Finnish culture values independence and personal achievements. Finnish students often prefer working alone and appreciate having their own space. On the other hand, Dutch culture emphasizes teamwork and collaboration. Dutch students tend to be social and enjoy working in groups.
+Finnish culture values independence and personal achievements. Finnish students often prefer working alone and appreciate having their own space. On the other hand, Dutch culture emphasizes teamwork and collaboration. Dutch students tend to be social and enjoy working in groups. 
+
+
+During our stay in Finland we noticed that outside of the school environment the Finnish students were barely socially active.
+During the week they spend alot of time at their homes and dont really go out much to do stuff. Some students practiced a sport, a few had a side-job in some sort of social sector but it was definetely a big difference with how it goes here in the Netherlands, as we tend to be more socially active during the week. That translated a bit in the group project. I noticed that while we were working together in a group, they kept themselves quiet most of the time and only spoke when asked something.
+On the other hand, us Dutch students were more socially active during the worktime, not in a small talk type of way, but more in a useful way. We discussed alot of tasks that we had to work on and asked for tips or help from the other students - which they always gladly gave. 
+
+
 
 <h6>2.0 Long-Term Orientation:</h6>h6>
 </br>

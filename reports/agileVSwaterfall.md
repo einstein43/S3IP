@@ -62,13 +62,14 @@ The delivery date and budget will be set at the beginning of the project so ther
 Waterfall has some downsides as it comes to software development. The requirements are set at the beginning and there is a set time for the duration of the project. So implementing new requirements is difficult if not impossible to do during the project.
 
 Using Kanban[^4], the steps in the waterfall model are divided into smaller pieces or tasks that can be indepentently designed, reviewed and tested. 
-By using a Kanban board[^5], every team member has a transparent way to visualize their tasks and workflow.Cards are used on the Kanban board to display the projects and work items, usually one per card. Using these cards, you can create a super efficient visualization of the current workflow by adding them to columns. These columns can be simply classified as "To do", "In progress", "To review" and "Done". This way there is a clear view for the team but also for the stakeholders of what stage the project is currently at. To eliminate risks of overloading one of these columns with cards, Work in Progress (WIP) Limits are used. The WIP limit specifies the maximum amount of cards that can be in one column at any given time. This improves efficiency and greatly reduces the risk of bottlenecking (if that word exists) your project's flow.
+By using a Kanban board[^5], every team member has a transparent way to visualize their tasks and workflow.Cards are used on the Kanban board to display the projects and work items, usually one per card. Using these cards, you can create a super efficient visualization of the current workflow by adding them to columns. These columns can be simply classified as "To do", "In progress", "To review" and "Done". This way there is a clear view for the team but also for the stakeholders of what stage the project is currently at. To eliminate risks of overloading one of these columns with cards, Work in Progress (WIP) Limits are used. The WIP limit specifies the maximum amount of cards that can be in one column at any given time. The limit depends on the capabilities of your team, for instance if there is only one person that can do testing, the testing column will have a lower WIP limit than when there are three testers in the team. This improves efficiency and greatly reduces the risk of bottlenecking (if that word exists) your project's flow.
 A backlog is preferred when working Kanban. It can be used as a centralization of potential new ideas and requirements for the project. The moment one of those ideas or requirements gets picked up by the team, the commitment point for that task is set. That ensures structural transparency on the teams workflow. When the commitment point is set, there also will be a delivery point. A delivery point, or Definition of Done, clarifies when a task is done. By shortening the time between the commitment point and the delivery point (lead time), you can become progressively efficient. Which makes changes in requirements easier to implement into the project. 
 
 </br>
 A general representation of a kanban board
 
-![image](https://github.com/einstein43/S3IP/assets/104003514/7bbe9d61-c580-4ece-9242-6555bd9c4fbd)
+ 
+![image](https://github.com/einstein43/S3IP/assets/104003514/8437459f-0df6-40c6-a446-188e1e96515b)
 
 
 </br>
@@ -79,7 +80,7 @@ So in conclusion, the Waterfall model can be made more Agile (not entirely) by m
 
 
 
-
+ 
 
 
 

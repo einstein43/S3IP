@@ -10,6 +10,7 @@
   - [Results](#results)
     - [Overview of Agile Project Management](#overview-of-agile-project-management)
     - [Overview of Waterfall](#overview-of-waterfall-project-management)
+    - [Making Waterfall more Agile using Kanban](#making-waterfall-more-agile-using-kanban)
     - [Comparison of Agile and Waterfall](#comparison-of-agile-and-waterfall)
   - [Conclusion](#conclusion)
   - [Sources](#sources)
@@ -19,12 +20,12 @@
 ## Methodology
 
 ### Research Strategies
-1. Literature Review: Comprehensive review of trusted sources, including academic papers, industry publications, and case studies, to understand the principles, methodologies, and application areas of Agile and Waterfall project management.
-2. Case Studies: Analysis of real-world examples of projects that have implemented Agile or Waterfall methodologies, examining the outcomes and challenges faced.
+1. Literature Study: Comprehensive review of trusted sources, including academic papers, industry publications, and case studies, to understand the principles, methodologies, and application areas of Agile and Waterfall project management.
+2. Community research: involves collaboration, observation, and analysis to gather insights and drive innovation collectively.
  
-### Instruments
-- Literature review: Academic papers, industry publications, case studies
-- Case studies: Real-world project examples
+### Instruments (DOT Framework)
+- Literature study: Academic papers, industry publications, case studies
+- Community research
   
 # Results
 
@@ -35,7 +36,8 @@ Agile project management is a flexible and collaborative approach to handling pr
 
 </br>
 
-![image](https://github.com/einstein43/S3IP/assets/104003514/c606dfc9-9350-4bce-b9a6-b5380f97861c)
+![image](https://github.com/einstein43/S3IP/assets/104003514/6481721a-9ddf-431b-a0f7-4aa3f5c95bef)
+
 
 
 </br>
@@ -53,10 +55,33 @@ The delivery date and budget will be set at the beginning of the project so ther
 
 </br>
 
+
+
+### Making Waterfall more Agile using Kanban
+
+Waterfall has some downsides as it comes to software development. The requirements are set at the beginning and there is a set time for the duration of the project. So implementing new requirements is difficult if not impossible to do during the project.
+
+Using Kanban[^4], the steps in the waterfall model are divided into smaller pieces or tasks that can be indepentently designed, reviewed and tested. 
+By using a Kanban board[^5], every team member has a transparent way to visualize their tasks and workflow.Cards are used on the Kanban board to display the projects and work items, usually one per card. Using these cards, you can create a super efficient visualization of the current workflow by adding them to columns. These columns can be simply classified as "To do", "In progress", "To review" and "Done". This way there is a clear view for the team but also for the stakeholders of what stage the project is currently at. To eliminate risks of overloading one of these columns with cards, Work in Progress (WIP) Limits are used. The WIP limit specifies the maximum amount of cards that can be in one column at any given time. This improves efficiency and greatly reduces the risk of bottlenecking (if that word exists) your project's flow.
+A backlog is preferred when working Kanban. It can be used as a centralization of potential new ideas and requirements for the project. The moment one of those ideas or requirements gets picked up by the team, the commitment point for that task is set. That ensures structural transparency on the teams workflow. When the commitment point is set, there also will be a delivery point. A delivery point, or Definition of Done, clarifies when a task is done. By shortening the time between the commitment point and the delivery point (lead time), you can become progressively efficient. Which makes changes in requirements easier to implement into the project. 
+
+So in conclusion, the Waterfall model can be made more Agile (not entirely) by making correct use of Kanban to split up tasks and visualize the workflow. 
+
+
+
+
+
+
+
+
+
+
+
+
 ### Comparison of Agile and Waterfall
 
 
-Agile and waterfall are different ways to manage projects. Agile is more flexible and collaborative, with frequent adjustments and client feedback. Waterfall follows a step-by-step process, where each stage must be finished before moving forward[^4]. Agile focuses on adaptability and improvement, while waterfall emphasizes planning and documentation. The choice depends on the project's needs.
+Agile and waterfall are different ways to manage projects. Agile is more flexible and collaborative, with frequent adjustments and client feedback. Waterfall follows a step-by-step process, where each stage must be finished before moving forward[^6]. Agile focuses on adaptability and improvement, while waterfall emphasizes planning and documentation. The choice depends on the project's needs.
 
 
 ## Conclusion
@@ -70,5 +95,7 @@ Agile is generally seen as a better choice for software projects because it offe
 [^1]:  https://www.atlassian.com/agile/scrum
 [^2]:  https://business.adobe.com/blog/basics/waterfall
 [^3]:  https://hive.com/blog/waterfall-project-management/
-[^4]: https://www.forbes.com/advisor/business/agile-vs-waterfall-methodology/
+[^4]: https://www.atlassian.com/agile/kanban
+[^5]: https://www.atlassian.com/agile/kanban/boards
+[^6]: https://www.forbes.com/advisor/business/agile-vs-waterfall-methodology/
  
